@@ -5,6 +5,7 @@ import Hero from '@/components/Hero';
 import Calculator from '@/components/Calculator';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -108,6 +109,107 @@ export default function Home() {
               Use our calculator to estimate your potential savings
             </p>
             <Calculator />
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Properties Section */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              Properties We've Helped Buy
+            </h2>
+            <p className="mt-4 text-lg text-gray-600">
+              Here are some properties we've helped our clients purchase and the amount saved
+            </p>
+          </motion.div>
+
+          <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="relative overflow-hidden rounded-lg"
+            >
+              <div className="h-64 bg-gray-200">
+                <Image
+                  src="/ottawa-property.jpg"
+                  alt="Ottawa Property"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                <h3 className="text-2xl font-bold">Saved: $38,750</h3>
+                <p className="mt-2 text-lg">Ottawa</p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="relative overflow-hidden rounded-lg"
+            >
+              <div className="h-64 bg-gray-200">
+                <Image
+                  src="/kanata-property.jpg"
+                  alt="Kanata Property"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                <h3 className="text-2xl font-bold">Saved: $42,500</h3>
+                <p className="mt-2 text-lg">Kanata</p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.6 }}
+              viewport={{ once: true }}
+              className="relative overflow-hidden rounded-lg"
+            >
+              <div className="h-64 bg-gray-200">
+                <Image
+                  src="/orleans-property.jpg"
+                  alt="Orleans Property"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                <h3 className="text-2xl font-bold">Saved: $36,250</h3>
+                <p className="mt-2 text-lg">Orleans</p>
+              </div>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+            viewport={{ once: true }}
+            className="mt-12 text-center"
+          >
+            <p className="text-xl font-semibold text-gray-900">
+              Total savings for our clients:
+              <span className="text-blue-600 ml-2">Over $800,000</span>
+            </p>
           </motion.div>
         </div>
       </section>
