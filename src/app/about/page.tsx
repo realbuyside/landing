@@ -3,8 +3,27 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function About() {
+  const team = [
+    {
+      name: 'Brendan Lucas',
+      role: 'Real Estate Salesperson',
+      image: '/brendan-lucas.jpeg'
+    },
+    {
+      name: 'Cory Maklin',
+      role: 'Real Estate Salesperson',
+      image: '/cory-maklin.jpg'
+    },
+    {
+      name: 'Mattias Lightstone',
+      role: 'Real Estate Salesperson',
+      image: '/mattias-lightstone.jpg'
+    }
+  ];
+
   return (
     <>
       <Navigation />
@@ -84,15 +103,22 @@ export default function About() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
                   Our Team
                 </h2>
-                <div className="space-y-6">
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900">Mike Zhou</h3>
-                    <p className="text-gray-600">Real Estate Salesperson</p>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900">Elaine Su</h3>
-                    <p className="text-gray-600">Real Estate Salesperson</p>
-                  </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  {team.map((member) => (
+                    <div key={member.name} className="text-center">
+                      <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
+                        <Image
+                          src={member.image}
+                          alt={member.name}
+                          fill
+                          style={{ objectFit: 'cover' }}
+                          className="rounded-full"
+                        />
+                      </div>
+                      <h3 className="text-lg font-semibold text-gray-900">{member.name}</h3>
+                      <p className="text-gray-600">{member.role}</p>
+                    </div>
+                  ))}
                 </div>
               </motion.div>
             </div>

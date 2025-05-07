@@ -112,6 +112,106 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              What Our Clients Say
+            </h2>
+            <p className="mt-4 text-lg text-gray-600">
+              Real experiences from homebuyers who saved thousands
+            </p>
+          </motion.div>
+
+          <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-lg shadow-lg p-8"
+            >
+              <div className="flex items-center mb-6">
+                <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center">
+                  <span className="text-xl font-bold text-blue-600">S</span>
+                </div>
+                <div className="ml-4">
+                  <div className="font-medium text-gray-900">Sarah M.</div>
+                  <div className="text-sm text-gray-500">Kanata</div>
+                </div>
+              </div>
+              <p className="text-gray-600">
+                "We saved over $36,000 on our home purchase in Kanata! The process was straightforward, 
+                and we appreciated being in control of our home buying journey. The showing agent was 
+                professional and gave us honest feedback about the properties."
+              </p>
+              <div className="mt-4 flex text-yellow-400">
+                {'★'.repeat(5)}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-lg shadow-lg p-8"
+            >
+              <div className="flex items-center mb-6">
+                <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center">
+                  <span className="text-xl font-bold text-blue-600">M</span>
+                </div>
+                <div className="ml-4">
+                  <div className="font-medium text-gray-900">Michael & Lisa T.</div>
+                  <div className="text-sm text-gray-500">Orleans</div>
+                </div>
+              </div>
+              <p className="text-gray-600">
+                "As first-time homebuyers, we were nervous about the process. HomeBuyer Savings made it 
+                easy and transparent. Their fixed fee structure meant no surprises, and we received 
+                excellent support during negotiations. Saved $28,000!"
+              </p>
+              <div className="mt-4 flex text-yellow-400">
+                {'★'.repeat(5)}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.6 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-lg shadow-lg p-8"
+            >
+              <div className="flex items-center mb-6">
+                <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center">
+                  <span className="text-xl font-bold text-blue-600">R</span>
+                </div>
+                <div className="ml-4">
+                  <div className="font-medium text-gray-900">Raj & Priya P.</div>
+                  <div className="text-sm text-gray-500">Nepean</div>
+                </div>
+              </div>
+              <p className="text-gray-600">
+                "The calculator was spot-on with our savings estimate. We viewed multiple properties 
+                at our convenience, and their $35 showing fee was much better than being pressured 
+                by a traditional agent. Ended up saving $42,000 on our dream home!"
+              </p>
+              <div className="mt-4 flex text-yellow-400">
+                {'★'.repeat(5)}
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </>
   );
