@@ -1,6 +1,6 @@
-# Robin Hood Properties Website
+# Home Buyer Savings Website
 
-A modern real estate website built with Next.js, TypeScript, and Tailwind CSS. This website showcases Robin Hood Properties' unique value proposition of fixed-fee real estate services and commission cashback.
+A modern real estate website built with Next.js, TypeScript, and Tailwind CSS. This website showcases Home Buyer Savings' unique value proposition of fixed-fee real estate services and commission cashback.
 
 ## Features
 
@@ -77,5 +77,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Robin Hood Properties - general@RobinHoodProperties.ca
+Home Buyer Savings - general@HomeBuyerSavings.ca
 Phone: (437)-755-2882

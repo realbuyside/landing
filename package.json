@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-ses": "^3.804.0",
     "@heroicons/react": "^2.2.0",
     "framer-motion": "^11.18.2",
     "next": "14.1.3",

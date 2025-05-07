@@ -42,7 +42,7 @@ export default function How() {
     {
       number: 4,
       title: "Close the deal",
-      description: "Close on your accepted offer. Robinhood Properties would help you with full legal or mortgage support if required.",
+      description: "Close on your accepted offer. HomeBuyer Savings would help you with full legal or mortgage support if required.",
       details: [
         "Full closing support",
         "Legal assistance available",
@@ -160,7 +160,7 @@ export default function How() {
               Ready to get started?
             </h2>
             <p className="mt-4 text-gray-600">
-              Contact us today to begin your home buying journey with Robin Hood Properties.
+              Contact us today to begin your home buying journey with Home Buyer Savings.
             </p>
             <div className="mt-8">
               <a

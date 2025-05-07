@@ -71,7 +71,7 @@ export default function Home() {
                 },
                 {
                   title: "Close the deal",
-                  description: "Close on your accepted offer. Robinhood Properties would help you with full legal or mortgage support if required."
+                  description: "Close on your accepted offer. HomeBuyer Savings would help you with full legal or mortgage support if required."
                 },
                 {
                   title: "Receive cashback",

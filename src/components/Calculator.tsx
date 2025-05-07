@@ -55,7 +55,7 @@ const Calculator = () => {
 
           <div className="bg-blue-50 p-4 rounded-lg">
             <h4 className="text-lg font-semibold text-blue-900">Your Savings</h4>
-            <p className="text-sm text-blue-500 mb-4">With Robin Hood Properties</p>
+            <p className="text-sm text-blue-500 mb-4">With Home Buyer Savings</p>
             <p className="text-2xl font-bold text-blue-600">
               {formatCurrency(calculateCashback(homePrice))}
             </p>
@@ -70,7 +70,7 @@ const Calculator = () => {
               <span className="font-medium">{formatCurrency(homePrice * COMMISSION_RATE)}</span>
             </div>
             <div className="flex justify-between">
-              <span className="text-gray-600">Robin Hood Fee:</span>
+              <span className="text-gray-600">Home Buyer Savings Fee:</span>
               <span className="font-medium">{formatCurrency(FLAT_FEE)}</span>
             </div>
             <div className="flex justify-between pt-2 border-t">

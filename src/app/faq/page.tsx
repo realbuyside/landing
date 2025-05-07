@@ -64,7 +64,7 @@ export default function FAQ() {
     },
     {
       question: "Areas Of Service?",
-      answer: "We serve around the GTA. Our main areas are Toronto, Markham, Vaughan, and Richmond Hill. We're willing to go a bit further as well depending on the circumstances (such as multiple showings in one day)."
+      answer: "We serve around the Greater Ottawa Area. Our main areas are Ottawa, Kanata, Nepean, and Orleans. We're willing to go a bit further as well depending on the circumstances (such as multiple showings in one day)."
     }
   ];
 
@@ -110,8 +110,8 @@ export default function FAQ() {
             <h2 className="text-2xl font-bold text-gray-900">Still have questions?</h2>
             <p className="mt-4 text-gray-600">
               Contact us directly at{' '}
-              <a href="mailto:general@RobinHoodProperties.ca" className="text-blue-600 hover:text-blue-800">
-                general@RobinHoodProperties.ca
+              <a href="mailto:general@HomeBuyerSavings.ca" className="text-blue-600 hover:text-blue-800">
+                general@HomeBuyerSavings.ca
               </a>
               {' '}or call us at{' '}
               <a href="tel:(437)-755-2882" className="text-blue-600 hover:text-blue-800">
