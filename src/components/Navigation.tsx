@@ -39,10 +39,10 @@ const Navigation = () => {
               </Link>
             ))}
             <a
-              href="tel:(437)-755-2882"
+              href="tel:(613)-794-2889"
               className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700"
             >
-              (437)-755-2882
+              (613)-794-2889
             </a>
           </div>
 
@@ -82,10 +82,10 @@ const Navigation = () => {
               </Link>
             ))}
             <a
-              href="tel:(437)-755-2882"
+              href="tel:(613)-794-2889"
               className="bg-blue-600 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700"
             >
-              (437)-755-2882
+              (613)-794-2889
             </a>
           </div>
         </div>

@@ -114,8 +114,8 @@ export default function FAQ() {
                 general@HomeBuyerSavings.ca
               </a>
               {' '}or call us at{' '}
-              <a href="tel:(437)-755-2882" className="text-blue-600 hover:text-blue-800">
-                (437)-755-2882
+              <a href="tel:(613)-794-2889" className="text-blue-600 hover:text-blue-800">
+                (613)-794-2889
               </a>
             </p>
           </motion.div>

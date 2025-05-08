@@ -176,18 +176,13 @@ export default function Contact() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
               
               <div className="space-y-6">
-                <div>
-                  <h3 className="text-lg font-medium text-gray-900">Address</h3>
-                  <p className="mt-2 text-gray-600">Greater Ottawa Area</p>
-                </div>
-
-                <div>
+                <div className="mt-8">
                   <h3 className="text-lg font-medium text-gray-900">Phone</h3>
                   <a
-                    href="tel:(437)-755-2882"
-                    className="mt-2 text-blue-600 hover:text-blue-800 block"
+                    href="tel:(613)-794-2889"
+                    className="mt-2 text-blue-600 hover:text-blue-800"
                   >
-                    (437)-755-2882
+                    (613)-794-2889
                   </a>
                 </div>
 
