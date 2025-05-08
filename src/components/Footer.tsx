@@ -7,7 +7,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Home Buyer Savings</h3>
             <p className="text-gray-400">Greater Ottawa Area</p>
             <p className="text-gray-400">(613)-794-2889</p>
-            <p className="text-gray-400">general@HomeBuyerSavings.ca</p>
+            <p className="text-gray-400">general@homebuyersavings.ca</p>
           </div>
 
           <div>

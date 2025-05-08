@@ -77,5 +77,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Home Buyer Savings - general@HomeBuyerSavings.ca
+Home Buyer Savings - general@homebuyersavings.ca
 Phone: (613)-794-2889

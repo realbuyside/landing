@@ -102,8 +102,8 @@ export default function FAQ() {
             <h2 className="text-2xl font-bold text-gray-900">Still have questions?</h2>
             <p className="mt-4 text-gray-600">
               Contact us directly at{' '}
-              <a href="mailto:general@HomeBuyerSavings.ca" className="text-blue-600 hover:text-blue-800">
-                general@HomeBuyerSavings.ca
+              <a href="mailto:general@homebuyersavings.ca" className="text-blue-600 hover:text-blue-800">
+                general@homebuyersavings.ca
               </a>
               {' '}or call us at{' '}
               <a href="tel:(613)-794-2889" className="text-blue-600 hover:text-blue-800">

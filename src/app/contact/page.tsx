@@ -189,10 +189,10 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg font-medium text-gray-900">Email</h3>
                   <a
-                    href="mailto:general@HomeBuyerSavings.ca"
+                    href="mailto:general@homebuyersavings.ca"
                     className="mt-2 text-blue-600 hover:text-blue-800 block"
                   >
-                    general@HomeBuyerSavings.ca
+                    general@homebuyersavings.ca
                   </a>
                 </div>
 

@@ -27,7 +27,7 @@ export async function POST(request: Request) {
     const emailParams = {
       Source: process.env.AWS_SES_FROM_EMAIL,
       Destination: {
-        ToAddresses: [process.env.AWS_SES_TO_EMAIL || 'general@HomeBuyerSavings.ca'],
+        ToAddresses: [process.env.AWS_SES_TO_EMAIL || 'general@homebuyersavings.ca'],
       },
       Message: {
         Subject: {
