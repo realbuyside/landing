@@ -2,11 +2,11 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">Home Buyer Savings</h3>
             <p className="text-gray-400">Greater Ottawa Area</p>
-            <p className="text-gray-400">(437)-755-2882</p>
+            <p className="text-gray-400">(613)-794-2889</p>
             <p className="text-gray-400">general@HomeBuyerSavings.ca</p>
           </div>
 
@@ -44,24 +44,6 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
-            <p className="text-gray-400 mb-4">Subscribe to our newsletter for updates</p>
-            <form className="flex gap-2">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="bg-gray-800 text-white px-4 py-2 rounded-md flex-grow"
-              />
-              <button
-                type="submit"
-                className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
-              >
-                Subscribe
-              </button>
-            </form>
           </div>
         </div>
 

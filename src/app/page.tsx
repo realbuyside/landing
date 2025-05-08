@@ -13,37 +13,6 @@ export default function Home() {
       <Navigation />
       <Hero />
       
-      {/* Fixed Fee Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center"
-          >
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Say Hello To Fixed Fees
-            </h2>
-            <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-3">
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="text-2xl font-bold text-blue-600">$4,999</div>
-                <div className="mt-2 text-gray-600">flat fee</div>
-              </div>
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="text-2xl font-bold text-blue-600">$35</div>
-                <div className="mt-2 text-gray-600">per showing</div>
-              </div>
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="text-2xl font-bold text-blue-600">$100</div>
-                <div className="mt-2 text-gray-600">per offer</div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
       {/* How It Works Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -149,7 +118,7 @@ export default function Home() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="text-2xl font-bold">Saved: $38,750</h3>
+                <h3 className="text-2xl font-bold">Saved: $16,875</h3>
                 <p className="mt-2 text-lg">Ottawa</p>
               </div>
             </motion.div>
@@ -171,7 +140,7 @@ export default function Home() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="text-2xl font-bold">Saved: $42,500</h3>
+                <h3 className="text-2xl font-bold">Saved: $15,500</h3>
                 <p className="mt-2 text-lg">Kanata</p>
               </div>
             </motion.div>
@@ -193,7 +162,7 @@ export default function Home() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="text-2xl font-bold">Saved: $36,250</h3>
+                <h3 className="text-2xl font-bold">Saved: $10,000</h3>
                 <p className="mt-2 text-lg">Orleans</p>
               </div>
             </motion.div>
@@ -208,7 +177,7 @@ export default function Home() {
           >
             <p className="text-xl font-semibold text-gray-900">
               Total savings for our clients:
-              <span className="text-blue-600 ml-2">Over $800,000</span>
+              <span className="text-blue-600 ml-2">Over $200,000</span>
             </p>
           </motion.div>
         </div>
@@ -250,7 +219,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600">
-                "We saved over $36,000 on our home purchase in Kanata! The process was straightforward, 
+                "We saved over $11,500 on our home purchase in Kanata! The process was straightforward, 
                 and we appreciated being in control of our home buying journey. The showing agent was 
                 professional and gave us honest feedback about the properties."
               </p>
@@ -278,7 +247,7 @@ export default function Home() {
               <p className="text-gray-600">
                 "As first-time homebuyers, we were nervous about the process. HomeBuyer Savings made it 
                 easy and transparent. Their fixed fee structure meant no surprises, and we received 
-                excellent support during negotiations. Saved $28,000!"
+                excellent support during negotiations. Saved $14,000!"
               </p>
               <div className="mt-4 flex text-yellow-400">
                 {'★'.repeat(5)}
@@ -303,8 +272,8 @@ export default function Home() {
               </div>
               <p className="text-gray-600">
                 "The calculator was spot-on with our savings estimate. We viewed multiple properties 
-                at our convenience, and their $35 showing fee was much better than being pressured 
-                by a traditional agent. Ended up saving $42,000 on our dream home!"
+                at our convenience without any pressure from agents. The professional service and flexibility 
+                made the process easy. Ended up saving $18,300 on our dream home!"
               </p>
               <div className="mt-4 flex text-yellow-400">
                 {'★'.repeat(5)}

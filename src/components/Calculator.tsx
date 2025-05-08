@@ -5,12 +5,10 @@ import { useState } from 'react';
 const Calculator = () => {
   const [homePrice, setHomePrice] = useState(1650000);
   const COMMISSION_RATE = 0.025; // 2.5%
-  const FLAT_FEE = 4999;
 
-  const calculateCashback = (price: number) => {
-    const standardCommission = price * COMMISSION_RATE;
-    const cashback = standardCommission - FLAT_FEE;
-    return Math.max(0, cashback);
+  const calculateCashback = (price: number): number => {
+    const commission = price * COMMISSION_RATE; // 2.5% typical commission
+    return commission * 0.5; // 50% of the commission as cashback
   };
 
   const formatCurrency = (amount: number) => {
@@ -68,10 +66,6 @@ const Calculator = () => {
             <div className="flex justify-between">
               <span className="text-gray-600">Standard Commission:</span>
               <span className="font-medium">{formatCurrency(homePrice * COMMISSION_RATE)}</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-gray-600">Home Buyer Savings Fee:</span>
-              <span className="font-medium">{formatCurrency(FLAT_FEE)}</span>
             </div>
             <div className="flex justify-between pt-2 border-t">
               <span className="text-gray-900 font-medium">Your Cashback:</span>

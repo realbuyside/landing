@@ -22,10 +22,10 @@ export default function How() {
       title: "Schedule Showings",
       description: "Use our web portal (or chat/call) to schedule showings for the shortlisted properties as per your convenience.",
       details: [
-        "Only $35 per showing",
         "Flexible scheduling",
+        "Professional guidance",
         "No cancellation fees",
-        "Professional guidance during viewings"
+        "Convenient booking"
       ]
     },
     {
@@ -33,10 +33,10 @@ export default function How() {
       title: "Submit an Offer",
       description: "Submit an offer request from our web portal and our realtor would contact you to send in your offer with your terms and conditions.",
       details: [
-        "$100 per offer submission",
         "Expert negotiation support",
+        "Professional advice on terms",
         "Includes counter-offers",
-        "Professional advice on terms"
+        "Full documentation support"
       ]
     },
     {
@@ -53,13 +53,31 @@ export default function How() {
     {
       number: 5,
       title: "Receive cashback",
-      description: "Receive your cashback which would depend on the property commission.",
+      description: "Receive 50% of the commission as cashback after closing.",
       details: [
-        "Transparent fee structure",
-        "Only $4,999 flat fee",
-        "Maximum cashback guaranteed",
+        "50% commission split",
+        "No hidden fees",
+        "Transparent process",
         "Quick payment processing"
       ]
+    }
+  ];
+
+  const benefits = [
+    {
+      title: "Maximum Savings",
+      description: "50% of the commission as cashback",
+      icon: "💰"
+    },
+    {
+      title: "Transparent Pricing",
+      description: "Clear fee structure with no surprises",
+      icon: "✨"
+    },
+    {
+      title: "Professional Service",
+      description: "Full support throughout your purchase",
+      icon: "🏠"
     }
   ];
 

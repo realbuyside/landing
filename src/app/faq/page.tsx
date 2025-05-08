@@ -44,23 +44,15 @@ export default function FAQ() {
   const faqs = [
     {
       question: "How Does The Cashback Process Work?",
-      answer: "Once we receive the commission from the seller agent, we immediately refund it to you, minus our $4,999 fee. We can try to negotiate a reduction in the overall purchase price (excluding our fees), but this is not always possible."
+      answer: "Once we receive the commission from the seller agent, we immediately split it 50/50 with you. You receive half of the total commission as cashback. We can try to negotiate a reduction in the overall purchase price, but this is not always possible."
     },
     {
       question: "What Is The Process for Showings?",
-      answer: "To schedule a property viewing, you can use our web portal or reach out to us via email or phone. We'll work to accommodate your preferred time based on the property's availability. We do not 'profit' from property showings and will not pressure you into seeing a property for $35. Payment for showings can be made in cash or via e-transfer, and a receipt will be emailed to you. Additionally, there is NO charge for cancelled showings at any time."
+      answer: "To schedule a property viewing, you can use our web portal or reach out to us via email or phone. We'll work to accommodate your preferred time based on the property's availability. All showings are completely free, and we will not pressure you into seeing properties. Additionally, there is NO charge for cancelled showings at any time."
     },
     {
-      question: "When Do I Pay The $4,999 Commission?",
-      answer: "You don't have to pay us directly. When we receive a commission from the listing brokerage, $4,999 will be deducted from the cashback you receive. If you want to fully remove the listing brokerage's commission and pay us directly we can try to work it out."
-    },
-    {
-      question: "Are Counters And Resubmissions Considered An Offer?",
-      answer: "The cost is $100 to submit, counter, and resubmit for each property. We will work with you until the end for each property. If you submit an offer on a different property it will be another $100."
-    },
-    {
-      question: "What If It's FSBO?",
-      answer: "If it's an FSBO (For Sale By Owner) with no commission offered by the seller, we would require you to pay us $4,999 directly on closing. If you do find an FSBO there are no hard feelings if you chose to proceed alone without our help."
+      question: "When Do I Receive My Cashback?",
+      answer: "You don't have to pay us directly. When we receive a commission from the listing brokerage, we split it 50/50 with you. Your half of the commission will be given to you as cashback. If you want to fully remove the listing brokerage's commission and pay us directly we can try to work it out."
     },
     {
       question: "Areas Of Service?",

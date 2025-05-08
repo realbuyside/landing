@@ -8,30 +8,14 @@ export default function Services() {
   const services = [
     {
       title: "Buyer Services",
-      description: "Pay upfront for showings and offers, then save big with our cashback program.",
+      description: "Save big with our 50/50 commission split.",
       features: [
-        "$35 per showing",
-        "$100 per offer",
-        "$4,999 on closing",
-        "Huge cashback on closing",
+        "50% commission cashback",
+        "No upfront costs",
         "No commitment required",
         "Professional negotiation",
         "Full legal support",
         "Mortgage assistance"
-      ]
-    },
-    {
-      title: "Seller Services",
-      description: "Pay a fixed low cost amount for full service, regardless of your property value.",
-      features: [
-        "$4,999 fixed fee",
-        "Professional photos included",
-        "MLS listing",
-        "Marketing strategy",
-        "Showing coordination",
-        "Offer negotiation",
-        "Closing support",
-        "Legal assistance"
       ]
     }
   ];
@@ -56,14 +40,14 @@ export default function Services() {
             </p>
           </motion.div>
 
-          <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2">
+          <div className="mt-16 flex justify-center">
             {services.map((service, index) => (
               <motion.div
                 key={service.title}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
-                className="bg-white rounded-lg shadow-lg overflow-hidden"
+                className="bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full"
               >
                 <div className="px-6 py-8">
                   <h3 className="text-2xl font-bold text-gray-900 text-center mb-4">
