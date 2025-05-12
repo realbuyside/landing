@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Home Buyer Savings - AimHome Realty Inc.",
+  title: "Home Buyer Savings",
   description: "The Future of Real Estate - Fixed Fees, Maximum Savings",
 };
 

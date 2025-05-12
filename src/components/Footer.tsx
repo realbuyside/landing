@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">AimHome Realty Inc.</h3>
+            <h3 className="text-lg font-semibold mb-4">Home Buyer savings</h3>
             <ul className="space-y-2 text-gray-400">
               <li>Ottawa</li>
               <li>Kanata</li>
